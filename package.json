@@ -1,0 +1,18 @@
+{
+  "name": "atv_final_pw2",
+  "version": "1.0.0",
+  "description": "Atividade final da matéria de PW2 do professor Cristiano",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "PW2",
+    "NODEJS",
+    "JAVASCRIPT",
+    "FIREBASE",
+    "MULTER"
+  ],
+  "author": "Victor da Silva Teixeira",
+  "license": "ISC"
+}
