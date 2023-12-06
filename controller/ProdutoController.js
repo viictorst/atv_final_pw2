@@ -37,8 +37,8 @@ router.post('/cadastrarProduto', uploadImage.array('files', 2), (req, res) => {
                             imagem_grd = fileName;
                             imagem_grd_url = urlFinal;
                             count++;
-                            console.log('\x1b[38;5;33m%s\x1b[0m', `\n Nome da imagem pequena: ${imagem_grd} `);
-                            console.log('\x1b[38;5;33m%s\x1b[0m', `\n Url da imagem pequena: ${urlFinal} `);
+                            console.log('\x1b[38;5;33m%s\x1b[0m', `\n Nome da imagem grande: ${imagem_grd} `);
+                            console.log('\x1b[38;5;33m%s\x1b[0m', `\n Url da imagem grande: ${urlFinal} `);
                         };
 
                         if (imagem_peq && imagem_grd) {
